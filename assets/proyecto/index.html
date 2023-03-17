@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Liliana & Wilson Bienes Raíces</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./icono.ico" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&family=Poppins:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+
+    <div class="overlay" data-overlay></div>
+
+    <div class="header-top">
+      <div class="container">
+
+        <ul class="header-top-list">
+
+          <li>
+            <a href="mailto:info@homeverse.com" class="header-top-link">
+              <ion-icon name="mail-outline"></ion-icon>
+
+              <span>Email</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="header-top-link">
+              <ion-icon name="location-outline"></ion-icon>
+
+              <address>Corocito / Jarabacoa</address>
+            </a>
+          </li>
+
+        </ul>
+
+        <div class="wrapper">
+          <ul class="header-top-social-list">
+
+            <li>
+              <a href="https://www.facebook.com/profile.php?id=100001547966827&mibextid=LQQJ4d" class="header-top-social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="https://instagram.com/wlbienesraices?igshid=YmMyMTA2M2Y=" class="header-top-social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+
+          </ul>
+
+          <a href="#foter" class="header-top-btn">Contacto</a>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="header-bottom">
+      <div class="container">
+
+        <a href="#" class="logo">
+          <img src="./assets/images/logo1.png" alt="Homeverse logo">
+        </a>
+
+        <nav class="navbar" data-navbar>
+
+          <div class="navbar-top">
+
+            <a href="https://wibienesraices.com/" class="logo">
+              <img src="./assets/images/logo1.png" alt="Homeverse logo">
+            </a>
+
+            <button class="nav-close-btn" data-nav-close-btn aria-label="Close Menu">
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+          </div>
+
+          <div class="navbar-bottom">
+            <ul class="navbar-list">
+
+              <li>
+                <a href="#home" class="navbar-link" data-nav-link>Inició</a>
+              </li>
+
+              <li>
+                <a href="#galeri" class="navbar-link" data-nav-link>Galería</a>
+              </li>
+
+              <li>
+                <a href="#about" class="navbar-link" data-nav-link>Beneficios</a>
+              </li>
+
+              <li>
+                <a href="#lcos" class="navbar-link" data-nav-link>Representantes</a>
+              </li>
+
+              <li>
+                <a href="#foter" class="navbar-link" data-nav-link>Contacto</a>
+              </li>
+
+            </ul>
+          </div>
+
+        </nav>
+
+        <div class="header-bottom-actions">
+
+          <!--<button class="header-bottom-actions-btn" aria-label="Search">
+            <ion-icon name="search-outline"></ion-icon>
+
+            <span>Search</span>
+          </button>-->
+
+          <button class="header-bottom-actions-btn" aria-label="Cart">
+            <a href="#fulImgBox"><ion-icon name="cart-outline"></ion-icon></a>
+
+            <span>Compra</span>
+          </button>
+
+          <button class="header-bottom-actions-btn" data-nav-open-btn aria-label="Open Menu">
+            <ion-icon name="menu-outline"></ion-icon>
+
+            <span>Menu</span>
+          </button>
+
+        </div>
+
+      </div>
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+      
+      <section class="hero" id="home">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <p class="hero-subtitle">
+              <ion-icon name="home"></ion-icon>
+
+              <span>Corocito / Jarabacoa</span>
+            </p>
+
+            <h2 class="h1 hero-title">Jarabacoa Mountain View</h2>
+
+            <p class="hero-text">
+              15 minutos de la ciudad
+            </p>
+
+            <a href="#foter" class="btn">Contacto</a>
+
+          </div>
+        </div>
+      </section>
+      <br>
+      <br>
+      <section class="convideo">
+        <div class="video-container">
+        </div>
+        <div class="popud-video" id="popud-video">
+          <span>&times;</span>
+          <iframe id="video"width="560" height="315" src="https://www.youtube.com/embed/d3qmXqo1_Ks?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay=1; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+      </section>
+      <br>
+      <br>
+      <br>
+      <div class="ful-img" id="fulImgBox">
+        <img src="imgs/1.jpg" id="fulImg" alt="">
+        <span onclick="closeImg()">X</span>
+      </div>
+
+        <p class="section-subtitle">Wilson & Liliana Bienes Raíces</p>
+
+        <h2 class="h2 section-title">Galeria de Imagenes</h2>
+
+      <div class="img-gallery" id="galeri">
+        <img src="./assets/images/img/IMG_6905.JPG" onclick="openFulImg(this.src)" alt="">
+        <img src="./assets/images/img/IMG_6906.JPG" onclick="openFulImg(this.src)" alt="">
+        <img src="./assets/images/img/IMG_6911.JPG" onclick="openFulImg(this.src)" alt="">
+        <img src="./assets/images/img/IMG_6912.JPG" onclick="openFulImg(this.src)" alt="">
+        <img src="./assets/images/img/IMG_6913.JPG" onclick="openFulImg(this.src)" alt="">
+        <img src="./assets/images/img/IMG_6924.JPG" onclick="openFulImg(this.src)" alt="">
+        <img src="./assets/images/img/IMG_6925.JPG" onclick="openFulImg(this.src)" alt="">
+        <img src="./assets/images/img/IMG_6926.JPG" onclick="openFulImg(this.src)" alt="">
+        <img src="./assets/images/img/IMG_6927.JPG" onclick="openFulImg(this.src)" alt="">
+        <img src="./assets/images/img/IMG_6944.JPG" onclick="openFulImg(this.src)" alt="">
+        <img src="./assets/images/img/IMG_6945.JPG" onclick="openFulImg(this.src)" alt="">
+      </div>
+
+      <section class="about" id="about">
+        <div class="container">
+
+          <figure class="about-banner">
+            <img src="./assets/images/img/Captura de pantalla 2023-03-16 a la(s) 8.13.44 p. m..png" alt="House interior">
+          </figure>
+
+          <div class="about-content">
+
+            <p class="section-subtitle">Liliana & Wilson Bienes Raíces</p>
+
+            <h2 class="h2 section-title">Jarabacoa Mountain View</h2>
+
+            <p class="about-text">
+              Es un espacio de terrenos ubicados en Corocito / Jarabacoa , estás ubicado a solo 15 minutos de la ciudad.
+            </p>
+
+            <ul class="about-list">
+
+              <li class="about-item">
+                <div class="about-item-icon">
+                  <ion-icon name="home-outline"></ion-icon>
+                </div>
+
+                <p class="about-item-text">Construcción</p>
+              </li>
+
+              <li class="about-item">
+                <div class="about-item-icon">
+                  <ion-icon name="leaf-outline"></ion-icon>
+                </div>
+
+                <p class="about-item-text">Ambiente tranquilo</p>
+              </li>
+
+              <li class="about-item">
+                <div class="about-item-icon">
+                  <ion-icon name="wine-outline"></ion-icon>
+                </div>
+
+                <p class="about-item-text">Valor de su inversión</p>
+              </li>
+
+              <li class="about-item">
+                <div class="about-item-icon">
+                  <ion-icon name="shield-checkmark-outline"></ion-icon>
+                </div>
+
+                <p class="about-item-text">Seguridad</p>
+              </li>
+
+            </ul>
+
+            <p class="callout">
+              No vendemos propiedades, cumplimos sus sueños
+            </p>
+
+            <a href="#property" class="btn">Comprar</a>
+
+          </div>
+
+        </div>
+      </section>
+
+      <p class="section-subtitle">Bienes Raíces</p>
+
+        <h2 class="h2 section-title">Wilson & Liliana</h2>
+
+      <div class="container__cards">
+ 
+
+        <div class="card">
+            <div class="cover">
+                <img src="./assets/images/wilson.png" alt="">
+                <div class="img__back"></div>
+            </div>
+            <div class="description">
+                <h2>Wilson Capellán</h2>
+                <p>Presidente de Liliana & Wilson Bienes Raíces.</p>
+               
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <div class="card">
+          <div class="cover">
+              <img src="#" alt="">
+              <div class="img__back"></div>
+          </div>
+          <div class="description">
+              <h2></h2>
+              <p></p>
+              
+          </div>
+      </div>
+        <div class="card">
+            <div class="cover">
+                <img src="./assets/images/liliana.png" alt="">
+                <div class="img__back"></div>
+            </div>
+            <div class="description">
+                <h2>Liliana Hernández</h2>
+                <p>Vise Presidente de Liliana & Wilson Bienes Raíces.</p>
+                
+            </div>
+        </div>
+
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+      <!-- 
+        - #CTA
+      -->
+
+      <section class="cta" id="lcos">
+        <div class="container">
+
+          <div class="cta-card">
+            <div class="card-content">
+              <h2 class="h2 card-title">No vendemos propiedades, cumplimos sus sueños</h2>
+
+              <p class="card-text">Liliana & Wilson Bienes Raíces</p>
+            </div>
+
+            <a href="#foter" class="btn cta-btn">
+              <span>Contacto</span>
+
+              <ion-icon name="arrow-forward-outline"></ion-icon>
+            </a>
+          </div>
+
+        </div>
+      </section>
+
+
+    </article>
+  </main>
+
+  <!-- 
+    - #FOOTER
+  -->
+
+
+  <footer class="footer" id="foter">
+
+    <div class="footer-top">
+      <div class="container">
+
+        <div class="footer-brand">
+
+          <a href="#" class="logo">
+            <img src="./assets/images/logo2.png" alt="Homeverse logo">
+          </a>
+
+          <p class="section-text">
+            No vendemos propiedades, cumplimos sus sueños
+          </p>
+
+          <ul class="contact-list">
+
+            <li>
+              <a href="#" class="contact-link">
+                <ion-icon name="location-outline"></ion-icon>
+
+                <address>Jarabacoa / La Vega</address>
+              </a>
+            </li>
+
+            <li>
+              <a href="tel:+0123456789" class="contact-link">
+                <ion-icon name="call-outline"></ion-icon>
+
+                <span>+1 809-907-0759<br>
+                      +1 809-208-2041<br>
+                      +1 809-432-6988<br>
+                      +1 809-947-6988</span>
+              </a>
+            </li>
+
+            <li>
+              <a href="mailto:contact@homeverse.com" class="contact-link">
+                <ion-icon name="mail-outline"></ion-icon>
+
+                <span>info@wibienesraices.com</span>
+              </a>
+            </li>
+
+          </ul>
+
+          <ul class="social-list">
+
+            <li>
+              <a href="https://www.facebook.com/profile.php?id=100001547966827&mibextid=LQQJ4d" class="header-top-social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="https://instagram.com/wlbienesraices?igshid=YmMyMTA2M2Y=" class="header-top-social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <div class="footer-link-box">
+
+          <ul class="footer-list">
+
+            <li>
+              <p class="footer-list-title"></p>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link"></a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link"></a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link"></a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link"></a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link"></a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link"></a>
+            </li>
+
+          </ul>
+
+          <ul class="footer-list">
+
+            <li>
+              <p class="footer-list-title">Web</p>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Inició</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Sobre Nosotros</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Propiedades</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Terrenos</a>
+            </li>
+            
+            <li>
+              <a href="#" class="footer-link">Vendidas</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Contacto</a>
+            </li>
+
+          </ul>
+
+          <ul class="footer-list">
+
+            <li>
+              <p class="footer-list-title"></p>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link"></a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link"></a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link"></a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link"></a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link"></a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link"></a>
+            </li>
+
+          </ul>
+
+        </div>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+
+        <p class="copyright">
+          &copy; 2023 <a href="#">Liliana & Wilson Bienes Raíces </a>. <a class="linktexto" href="https://tcer.com.do/#top">Tecnología de TCER</a> 
+        </p>
+
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
